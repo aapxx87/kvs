@@ -19,12 +19,14 @@
 /* стили фона мобильного меню */
 @import "con_mobile_menu_background.css";
 
-/* стили footer */
+/* стили about */
 @import "con_footer.css";
+
+/* стили footer */
+@import "con_about.css";
 
 /* стили переиспользуемых элементов */
 @import "con_reusable_elements.css";
-
 
 
 

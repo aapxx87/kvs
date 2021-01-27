@@ -11,7 +11,7 @@
 @import "articles.css";
 
 /* стили navbar */
-@import "_navbar.css";
+@import "navbar.css";
 
 /* стили блока подписки */
 @import "_subscribe_block.css";

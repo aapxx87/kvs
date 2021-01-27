@@ -5,10 +5,10 @@
 @import "main-page.css";
 
 /* страница со статьей */
-@import "_article_page.css";
+@import "article_page.css";
 
 /* стили страницы articles */
-@import "_articles.css";
+@import "articles.css";
 
 /* стили navbar */
 @import "_navbar.css";

@@ -2,7 +2,7 @@
 @import "_base.css";
 
 /* стили главной страницы */
-@import "_main-page.css";
+/* @import "_main-page.css"; */
 
 /* страница со статьей */
 @import "_article_page.css";

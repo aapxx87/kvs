@@ -1,8 +1,8 @@
 /* базовые настройки */
-@import "_base.css";
+@import "base.css";
 
 /* стили главной страницы */
-/* @import "_main-page.css"; */
+@import "main-page.css";
 
 /* страница со статьей */
 @import "_article_page.css";

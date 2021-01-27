@@ -1,29 +1,29 @@
 /* базовые настройки */
-@import "base.css";
+@import "con_base.css";
 
 /* стили главной страницы */
-@import "main-page.css";
+@import "con_main-page.css";
 
 /* страница со статьей */
-@import "article_page.css";
+@import "con_article_page.css";
 
 /* стили страницы articles */
-@import "articles.css";
+@import "con_articles.css";
 
 /* стили navbar */
-@import "navbar.css";
+@import "con_navbar.css";
 
 /* стили блока подписки */
-@import "subscribe_block.css";
+@import "con_subscribe_block.css";
 
 /* стили фона мобильного меню */
-@import "mobile_menu_background.css";
+@import "con_mobile_menu_background.css";
 
 /* стили footer */
-@import "footer.css";
+@import "con_footer.css";
 
 /* стили переиспользуемых элементов */
-@import "reusable_elements.css";
+@import "con_reusable_elements.css";
 
 
 

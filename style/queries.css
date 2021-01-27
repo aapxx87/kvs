@@ -77,4 +77,17 @@
   }
 
 
+  /* футер */
+
+  footer {
+    padding-top: 15px;
+  }
+
+  /* подпись в футере */
+
+  .footer-text-block {
+    font-size: 13px;
+  }
+
+
 }

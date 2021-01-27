@@ -31,7 +31,7 @@
 <body>
 
 
-
+<!-- меню навигации десктопная версия -->
 <nav class="navbar">
 
   <a href="../index.html"><img src='../img/logo.png' class='logo'/></a>
@@ -41,9 +41,24 @@
     <li><a href="#">О КвС</a></li>
   </ul>
 
-  <span class="material-icons mob-menu">menu</span>
+  <span id="btn_mob-menu-articles-htrwr" class="material-icons mob-menu">menu</span>
 
 </nav>
+
+<!-- меню навигации мобильная версия версия -->
+<div id="mob-menu-overlay--articles-htrwr" class="mob-menu-overlay">
+
+  <span id="mob-menu-close-articles-htrwr" class="material-icons mob-menu-close-icon">close</span>
+
+  <div class="mob-menu-links-box">
+    <ul class="mob-menu-links-box--list">
+      <li><a href="../index.html">Главная</a></li>
+      <li><a href="../articles.html">Статьи</a></li>
+      <li><a href="../about.html">О КвС</a></li>
+    </ul>
+  </div>
+
+</div>
 
 
 
@@ -188,11 +203,15 @@
 
 
 <footer>
-
+  <div class="footer-text-block">
+    <p>"Как выйти из стада" (КвС)</p>
+    <p>2021</p>
+  </div>
 </footer>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../scripts/mobile_menu-art-htrwr.js"></script>
 
 
 

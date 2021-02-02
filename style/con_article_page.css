@@ -71,3 +71,42 @@
   font-size: 16px;
   color: #C93938;
 }
+
+.article_text_origin {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 25px;
+  color: #B2B1B1;
+}
+
+.article_text_origin a {
+  text-decoration: none;
+  color: #B2B1B1;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* d */

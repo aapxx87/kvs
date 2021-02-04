@@ -2,7 +2,7 @@
 
   &--recent-article {
 
-    $-link {
+    &-link {
       text-align: center;
 
       & a {
@@ -13,9 +13,69 @@
         font-size: 16px;
         color: #C93938;
       }
-      
+
+    }
+
+    .coming-soon a {
+      color: #C93938;
     }
 
   }
+
+  /* ссылка на все статьи */
+  .btn-link-all-articles {
+
+    & {
+      width: 35%;
+      height: 50px;
+      display: inline-block;
+
+      margin-top: 30px;
+      margin-left: 30%;
+
+      border: 1px solid #C93938;
+      background-color: #C93938;
+
+      outline: none;
+
+      transition: background-color 0.4s, color 0.4s;
+    }
+
+
+    &:hover {
+      width: 35%;
+      height: 50px;
+      display: inline-block;
+
+      margin-left: 30%;
+
+      background-color: #fff;
+      border: 1px solid #C93938;
+    }
+
+    & h3 {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+
+    & a:hover {
+      text-decoration: none;
+      color: #C93938;
+    }
+
+  }
+
+
+
 
 }

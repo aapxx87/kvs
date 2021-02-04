@@ -1,0 +1,17 @@
+.all-articles-section {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px solid #C93938;
+  margin-top: 60px;
+
+  &--article-box {
+    margin-top: 40px;
+
+    &--line {
+      border: 1px solid #C93938;
+    }
+
+  }
+
+}

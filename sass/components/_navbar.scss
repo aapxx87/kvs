@@ -1,0 +1,111 @@
+/* стили navbar */
+
+/* navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 1px #DDDDDD;
+  padding-left: 2%;
+  padding-right: 2%;
+  z-index: 9;
+}
+
+.menu-list {
+  float: right;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.menu-list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.logo {
+ float: left;
+ width: 50px;
+ height: auto;
+}
+
+
+/* mob menu ico */
+.mob-menu {
+  color: #C93938;
+  float: right;
+  margin-right: 5%;
+  display: none;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+
+/* стили фона мобильного меню */
+.mob-menu-overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99;
+}
+
+.mob-menu-links-box {
+  background: #fff;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  /* border: 1px solid gray; */
+  width: 65%;
+  height: 320px;
+}
+
+.mob-menu-links-box--list {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  font-size: 22px;
+
+  list-style: none;
+  text-align: center;
+  margin-top: 40%;
+}
+
+
+.mob-menu-links-box--list a {
+  text-decoration: none;
+  color: #C93938;
+}
+
+
+.mob-menu-links-box--list li {
+ margin-bottom: 15px;
+}
+
+.mob-menu-close-icon {
+  color: #C93938;
+  font-size: 40px;
+  position: absolute;
+  top: 5px;
+  right: 25px;
+}

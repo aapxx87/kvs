@@ -54,16 +54,76 @@
     margin-bottom: 25px;
     text-align: left; }
 
-.main-section--recent-article-link {
-  text-align: center; }
-
-.main-section--recent-article-link a {
+.all-articles-section--article-box {
   font-family: 'Lato', sans-serif;
-  line-height: 1.6;
   letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 16px;
-  color: #C93938; }
+  line-height: 1.6; }
+  .all-articles-section--article-box--title {
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 7px; }
+  .all-articles-section--article-box a {
+    text-decoration: none;
+    color: black; }
+  .all-articles-section--article-box--time {
+    font-weight: 300;
+    font-size: 15px;
+    color: #B2B1B1;
+    margin-bottom: 30px; }
+  .all-articles-section--article-box--date {
+    font-weight: 300;
+    font-size: 15px;
+    color: #B2B1B1;
+    margin-bottom: 15px; }
+  .all-articles-section--article-box--preview {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px; }
+
+.main-section {
+  /* ссылка на все статьи */ }
+  .main-section--recent-article-link {
+    text-align: center; }
+    .main-section--recent-article-link a {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 16px;
+      color: #C93938; }
+  .main-section--recent-article .coming-soon a {
+    color: #C93938; }
+  .main-section .btn-link-all-articles {
+    width: 35%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30%;
+    border: 1px solid #C93938;
+    background-color: #C93938;
+    outline: none;
+    transition: background-color 0.4s, color 0.4s; }
+  .main-section .btn-link-all-articles:hover {
+    width: 35%;
+    height: 50px;
+    display: inline-block;
+    margin-left: 30%;
+    background-color: #fff;
+    border: 1px solid #C93938; }
+  .main-section .btn-link-all-articles h3 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center; }
+  .main-section .btn-link-all-articles a {
+    text-decoration: none;
+    color: #fff; }
+  .main-section .btn-link-all-articles a:hover {
+    text-decoration: none;
+    color: #C93938; }
 
 /* main page */
 .main-section {
@@ -94,45 +154,16 @@
       border-bottom: 1px solid #DDDDDD;
       padding: 2%; }
 
-/* серая неактивная ссылка на стаью coming soon */
-.coming-soon a {
-  color: #C93938; }
-
-/* ссылка на все статьи */
-.btn-link-all-articles {
-  width: 35%;
-  height: 50px;
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 30%;
-  border: 1px solid #C93938;
-  background-color: #C93938;
-  outline: none;
-  transition: background-color 0.4s, color 0.4s; }
-
-.btn-link-all-articles:hover {
-  width: 35%;
-  height: 50px;
-  display: inline-block;
-  margin-left: 30%;
-  background-color: #fff;
-  border: 1px solid #C93938; }
-
-.btn-link-all-articles h3 {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 18px;
-  text-align: center; }
-
-.btn-link-all-articles a {
-  text-decoration: none;
-  color: #fff; }
-
-.btn-link-all-articles a:hover {
-  text-decoration: none;
-  color: #C93938; }
+.all-articles-section {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px solid #C93938;
+  margin-top: 60px; }
+  .all-articles-section--article-box {
+    margin-top: 40px; }
+    .all-articles-section--article-box--line {
+      border: 1px solid #C93938; }
 
 /* article page */
 .body-article {
@@ -209,51 +240,6 @@
   text-decoration: none;
   color: #B2B1B1;
   font-weight: 600; }
-
-/* стили страницы articles */
-.article-list-box {
-  margin-top: 40px; }
-
-.article-list-box--title {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.3;
-  letter-spacing: 0.3px;
-  font-weight: 500;
-  font-size: 25px;
-  margin-bottom: 7px; }
-
-.article-list-box a {
-  text-decoration: none;
-  color: black; }
-
-.article-list-box--time {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 15px;
-  color: #B2B1B1;
-  margin-bottom: 30px; }
-
-.article-list-box--date {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 15px;
-  color: #B2B1B1;
-  margin-bottom: 15px; }
-
-.article-list-box--preview {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-  font-size: 16px;
-  margin-bottom: 10px; }
-
-.article-list-box--line {
-  border: 1px solid #C93938; }
 
 /* стили navbar */
 /* navbar */

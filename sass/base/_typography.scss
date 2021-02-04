@@ -1,0 +1,91 @@
+.main-section {
+  font-family: 'Lato', sans-serif;
+
+  &--main-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+  &--main-intro {
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+
+  &--recent-article {
+
+    &-title {
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    &-name {
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #C93938;
+    }
+
+    &-name-a {
+      text-decoration: none;
+    }
+
+    &-date {
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 15px;
+      text-align: center;
+      color: #B2B1B1;
+      margin-bottom: 10px;
+    }
+
+    &-preview {
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
+      letter-spacing: 0.3px;
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: 25px;
+      text-align: left;
+    }
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .

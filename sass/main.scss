@@ -1,73 +1,15 @@
+@import "abstract/variables";
+
 @import "base/base";
 @import "base/typography";
 
 @import "components/button";
 @import "components/navbar";
 @import "components/subscribe-block";
+@import "components/footer";
+@import "components/reusable";
 
 @import "layout/home";
 @import "layout/all-articles";
 @import "layout/article";
-
-
-
-
-/* стили about */
-.intro-about {
-  color: #C93938;
-  font-weight: 500;
-  margin-top: 50px;
-}
-
-
-/* стили footer */
-/* footer */
-footer {
-  margin-top: 50px;
-  width: 100%;
-  height: 75px;
-  padding-top: 10px;
-  background-color: #EEEEEE;
-}
-
-
-.footer-text-block {
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-
-  text-align: center;
-}
-
-
-.footer-text-block p {
- vertical-align: middle;
- color: #BBBABA;
-}
-
-
-
-/* стили и элементы */
-
-/* цвета */
-
-/* красный - #C93938 */
-/* серый рамки главная - #DDDDDD */
-/* серый дата публикации - #B2B1B1 */
-
-/* стили шрифта */
-
-/* font-family: 'Lato', sans-serif;
-line-height: 1.6;
-letter-spacing: 0.3px;
-font-weight: 300; */
-
-
-
-/* highlighted text */
-/* <span class="article-highlight"></span> */
+@import "layout/about";

@@ -22,9 +22,9 @@
     width: 90%;
   }
 
-  .main-section--recent-articles-box {
+  .main-section--recent-articles-box--card {
     min-height: 400px;
-    padding: 3%;
+    padding: 2%;
   }
 
   /* navbar */

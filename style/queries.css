@@ -24,7 +24,7 @@
 
   .main-section--recent-articles-box--card {
     min-height: 400px;
-    padding: 2%;
+    padding: 3%;
   }
 
   /* navbar */
@@ -67,6 +67,14 @@
   .btn {
     margin-top: 10px;
   }
+
+  /* страница всех статей */
+
+  .all-articles-section {
+    width: 90%;
+  }
+
+
 
   /* ссылка на все статьи */
 

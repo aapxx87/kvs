@@ -1,4 +1,4 @@
-.main-section {
+.section-home {
 
   &--recent-article {
 
@@ -24,31 +24,22 @@
 
   /* ссылка на все статьи */
   .btn-link-all-articles {
-
-    & {
-      width: 35%;
-      height: 50px;
-      display: inline-block;
-
-      margin-top: 30px;
-      margin-left: 30%;
-
-      border: 1px solid #C93938;
-      background-color: #C93938;
-
-      outline: none;
-
-      transition: background-color 0.4s, color 0.4s;
-    }
+    width: 35%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30%;
+    border: 1px solid #C93938;
+    background-color: #C93938;
+    outline: none;
+    transition: background-color 0.4s, color 0.4s;
 
 
     &:hover {
       width: 35%;
       height: 50px;
       display: inline-block;
-
       margin-left: 30%;
-
       background-color: #fff;
       border: 1px solid #C93938;
     }

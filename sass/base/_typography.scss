@@ -1,4 +1,4 @@
-.main-section {
+.section-home {
   font-family: 'Lato', sans-serif;
 
   &--main-title {
@@ -70,7 +70,7 @@
 }
 
 
-.all-articles-section {
+.section-all-articles {
 
   &--article-box {
     font-family: 'Lato', sans-serif;
@@ -113,6 +113,92 @@
 
 
 }
+
+
+
+.section-article {
+
+  &--articleName {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &--articleTime {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #B2B1B1;
+    text-align: center;
+  }
+
+  &--articleContent {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  &--subHeading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  &---highlight {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C93938;
+  }
+
+  &--articleUl {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 7%;
+    margin-bottom: 25px;
+
+    & li {
+      margin-bottom: 15px;
+    }
+  }
+
+  &--originLink {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #B2B1B1;
+
+    & a {
+      text-decoration: none;
+      color: #B2B1B1;
+      font-weight: 600;
+    }
+  }
+
+}
+
+
+
 
 
 

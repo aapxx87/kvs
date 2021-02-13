@@ -159,49 +159,57 @@ font-weight: 300; */
     color: #B2B1B1;
     font-weight: 600; }
 
-.section-home {
-  /* ссылка на все статьи */ }
-  .section-home--recent-article-link {
-    text-align: center; }
-    .section-home--recent-article-link a {
-      font-family: 'Lato', sans-serif;
-      line-height: 1.6;
-      letter-spacing: 0.3px;
-      font-weight: 300;
-      font-size: 16px;
-      color: #C93938; }
-  .section-home--recent-article .coming-soon a {
+.footer--text-block p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  vertical-align: middle;
+  color: #BBBABA; }
+
+.btn {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  width: 100%;
+  height: 49px;
+  border: 1px solid #C93938;
+  text-decoration: none;
+  background-color: #C93938;
+  color: #fff;
+  transition: background-color 0.4s, color 0.4s; }
+  .btn:hover {
+    background-color: #fff;
+    border: 1px solid #C93938;
     color: #C93938; }
-  .section-home .btn-link-all-articles {
+  .btn--allArticles {
     width: 35%;
     height: 50px;
-    display: inline-block;
     margin-top: 30px;
-    margin-left: 30%;
-    border: 1px solid #C93938;
-    background-color: #C93938;
-    outline: none;
-    transition: background-color 0.4s, color 0.4s; }
-    .section-home .btn-link-all-articles:hover {
-      width: 35%;
-      height: 50px;
-      display: inline-block;
-      margin-left: 30%;
-      background-color: #fff;
-      border: 1px solid #C93938; }
-    .section-home .btn-link-all-articles h3 {
-      font-family: 'Lato', sans-serif;
-      line-height: 1.6;
-      letter-spacing: 0.3px;
-      font-weight: 300;
-      font-size: 18px;
-      text-align: center; }
-    .section-home .btn-link-all-articles a {
+    margin-left: 33%;
+    display: inline-block; }
+    .btn--allArticles a {
+      color: #fff;
       text-decoration: none;
-      color: #fff; }
-    .section-home .btn-link-all-articles a:hover {
+      font-size: 18px; }
+    .btn--allArticles:hover a {
+      color: #C93938;
       text-decoration: none;
-      color: #C93938; }
+      font-size: 18px; }
+
+.section-home--recent-article-link {
+  text-align: center; }
+  .section-home--recent-article-link a {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #C93938; }
+
+.section-home--recent-article .coming-soon a {
+  color: #C93938; }
 
 /* стили navbar */
 /* navbar */
@@ -305,11 +313,10 @@ font-weight: 300; */
   margin-right: auto;
   margin-bottom: 50px;
   padding-top: 60px; }
-
-.action-area {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
+  .subscribe-box--action-area {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
 
 .email-input {
   width: 100%;
@@ -318,22 +325,6 @@ font-weight: 300; */
   border-radius: 3px;
   border: 1px solid #ccc; }
 
-.btn {
-  width: 100%;
-  height: 49px;
-  border: 1px solid #C93938;
-  text-decoration: none;
-  background-color: #C93938;
-  color: #fff;
-  transition: background-color 0.4s, color 0.4s; }
-
-.btn:hover {
-  background-color: #fff;
-  border: 1px solid #C93938;
-  color: #C93938; }
-
-/* стили footer */
-/* footer */
 footer {
   margin-top: 50px;
   width: 100%;
@@ -341,19 +332,11 @@ footer {
   padding-top: 10px;
   background-color: #EEEEEE; }
 
-.footer-text-block {
+.footer--text-block {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
   text-align: center; }
-
-.footer-text-block p {
-  vertical-align: middle;
-  color: #BBBABA; }
 
 .logo-center-box {
   width: 70px;

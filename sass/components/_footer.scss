@@ -1,5 +1,4 @@
-/* стили footer */
-/* footer */
+
 footer {
   margin-top: 50px;
   width: 100%;
@@ -9,21 +8,9 @@ footer {
 }
 
 
-.footer-text-block {
+.footer--text-block {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
-
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
-  letter-spacing: 0.3px;
-  font-weight: 300;
-
   text-align: center;
-}
-
-
-.footer-text-block p {
- vertical-align: middle;
- color: #BBBABA;
 }

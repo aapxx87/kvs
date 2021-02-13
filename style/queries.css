@@ -75,12 +75,12 @@
 
   /* ссылка на все статьи */
 
-  .section-home .btn-link-all-articles {
+  .section-home .btn--allArticles {
     width: 65%;
     margin-left: 17%;
   }
 
-  .section-home .btn-link-all-articles:hover {
+  .section-home .btn--allArticles:hover {
     width: 65%;
     margin-left: 17%;
   }
@@ -92,9 +92,8 @@
     padding-top: 15px;
   }
 
-  /* подпись в футере */
 
-  .footer-text-block {
+  .footer--text-block {
     font-size: 13px;
   }
 

@@ -146,6 +146,9 @@ font-weight: 300; */
   .section-article--articleUl li {
     margin-bottom: 15px; }
 
+.section-article--otherLink {
+  text-decoration: none; }
+
 .section-article--originLink {
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
@@ -271,13 +274,11 @@ font-weight: 300; */
 
 .mob-menu-links-box {
   background: #fff;
-  margin-top: 40%;
-  margin-left: auto;
-  margin-right: auto;
   padding: 2px;
-  /* border: 1px solid gray; */
-  width: 65%;
-  height: 320px; }
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .mob-menu-links-box--list {
   font-family: 'Lato', sans-serif;
@@ -286,8 +287,7 @@ font-weight: 300; */
   font-weight: 500;
   font-size: 22px;
   list-style: none;
-  text-align: center;
-  margin-top: 40%; }
+  text-align: center; }
 
 .mob-menu-links-box--list a {
   text-decoration: none;
